@@ -27,7 +27,18 @@
 
             switch (operador)
             {
-
+                case 3:
+                    Console.WriteLine($"{valor1} x {valor2} = {valor1 * valor2}");
+                    break;
+                case 4:
+                    while (valor2 == 0)
+                    {
+                        Console.WriteLine("Impossível dividir por 0");
+                        Console.WriteLine("Digite outro denominador");
+                        valor2 = float.Parse(Console.ReadLine());
+                    }
+                    Console.WriteLine($"{valor1} / {valor2} = {valor1 / valor2}");
+                    break;
             }
         }
     }
