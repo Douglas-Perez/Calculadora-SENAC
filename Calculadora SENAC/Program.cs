@@ -27,6 +27,13 @@
 
             switch (operador)
             {
+                case 1:
+                    Console.WriteLine($"Resultado: {valor1 + valor2}");
+                    break;
+                case 2:
+                    Console.WriteLine($"Resultado: {valor1 - valor2}");
+                    break;
+
 
             }
         }
