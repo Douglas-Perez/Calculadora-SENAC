@@ -28,10 +28,10 @@
             switch (operador)
             {
                 case 1:
-                    Console.WriteLine($"Resultado: {valor1 + valor2}");
+                    Console.WriteLine($"{valor1} + {valor2} = {valor1 + valor2}");
                     break;
                 case 2:
-                    Console.WriteLine($"Resultado: {valor1 - valor2}");
+                    Console.WriteLine($"{valor1} - {valor2} = {valor1 - valor2}");
                     break;
                 case 3:
                     Console.WriteLine($"{valor1} x {valor2} = {valor1 * valor2}");
