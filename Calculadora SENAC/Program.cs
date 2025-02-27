@@ -27,7 +27,9 @@
 
             switch (operador)
             {
-
+                case 3:
+                    Console.WriteLine($"{valor1} x {valor2} = {valor1 * valor2}");
+                    break;
             }
         }
     }
